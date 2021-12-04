@@ -1,9 +1,9 @@
-@font-face 
+@font-face { /* címekhez */
     src: url(../font/Constantine.ttf);
     font-family: Constantine;
 }
 
-@font-face 
+@font-face { /* kenyérszöveghez */
     src: url(../font/LiberationSerif-Regular.ttf);
     font-family: Liberation;
 }
@@ -23,7 +23,7 @@ header {
     background-color: #797876;
 }
 
-header nav ul li a 
+header nav ul li a { /* menüpontok */
     font-family: Liberation;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.8);
@@ -121,7 +121,7 @@ article img {
     margin-bottom: 100px;
 }
 
-@media (max-width: 767px) 
+@media (max-width: 767px) { /* mobil */
     header nav ul li, header nav ul li a {
         width: 100%;
         float: left;
@@ -145,4 +145,4 @@ article img {
         width: 94%;
         margin-bottom: 100px;
     }
-} 
+} /* end @media */
